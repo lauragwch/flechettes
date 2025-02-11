@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(31, 31, 31)!important;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  justify-content: center;
+}
+
+.dartboard-container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  width: 50vw;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 3%;
+}
+
+.resultat{
+  align-self: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 2%;
+  width: 50%;
+  text-align: center;
+}
+
+.btn-primary, .btn-success, .btn-danger, .btn-info{
+  width: 18%;
+  border: none;
+}
+
+.btn-primary{
+  background-color: #1e4a7c;
+  border: none;
+}
+
+.arrows{
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-img{
+  width: 75px;
+  height: 75px;
+  filter: brightness(10);
+}
+
